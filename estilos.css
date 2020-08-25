@@ -1,0 +1,254 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+#h1, #h2, #h3, #h4{
+    font-size: 50px;
+    font-weight: 600;
+    color: #0a183d;
+}
+.pk{
+    color: #6a7080;
+    
+}
+.color{
+    background: #1193d4;
+    padding: 8px;
+}
+.telefono{
+        text-decoration: none;
+        color: aliceblue;
+ }
+.size{
+    font-size: 20px;
+    font-family: 'Open Sans'
+}
+.logos{
+    font-size: 40px;
+    color: #400e36;
+}
+.te{
+    text-decoration: none;
+    color: aliceblue;
+}
+body{
+    font-family: 'Open Sans', sans-serif;
+    overflow-x: hidden;  
+    width: 100%;
+}
+
+.valores i .fas{
+    font-size: 50px;
+    color: aliceblue;
+}
+.fondo{
+    background: #aca9a9;
+    width: 100%;
+    height: 200px;
+}
+.img1{
+    display: inline-block;
+    height: 450px;
+    object-fit: cover;
+    width: auto;
+    
+}
+#img2{
+    height: 400px;
+    width: 450px;
+    
+}
+#img3{
+    height: 400px;
+    width: 450px;
+   
+}
+.imagen1{
+    height: 400px;
+    width: 450px;
+}
+.valores{
+    background: #b2b0b0;
+    height: 245px;  
+    overflow-x: hidden;
+}
+header{
+    background: #1193d4; 
+    background: -webkit #1193d4;
+    height: 390px;
+    padding: 48px;
+    width: 100%;
+}
+.container{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    margin: auto;
+    justify-content: space-around;
+}
+nav{
+    position: fixed;
+    top: 20px;
+    left: 30px;
+}
+.textos{
+    width: 50%;
+    color: aliceblue;
+}
+.textos h1{
+    font-size: 80px;
+    font-weight: 600;
+    animation: moverDerecha 2.3s ease-in;
+}
+.textos h2{
+    font-size: 30px; 
+    font-weight: 600;
+    animation: moverDerecha2 2.2s ease-in;
+}
+.textos a{
+    display: inline-block;
+    color: #fff;
+    font-weight: 300px;
+    text-decoration: none;
+    margin-top: 30px;
+    border: 1px solid #fff;
+    width: 150px;
+    border-radius: 3px;
+    text-align: center;
+    padding: 10px 0;
+}
+.wave{
+    height: 182px;
+    width: 100% ;
+    background: #1193d4;
+}
+.footer{
+    box-sizing: border-box;
+    height:235px;
+    width: 100% ;
+    background: #1193d4;
+}
+
+@media (max-width: 600px){
+    .textos h1 {
+    font-size: 50px;
+}.textos a {
+    display: inline-block;
+    color: #fff;
+    font-weight: 300px;
+    text-decoration: none;
+    margin-top: 10px;
+    border: 1px solid #fff;
+    width: 150px;
+    border-radius: 3px;
+    text-align: center;
+    padding: 10px 0;
+    animation: Contacto 1.2s ease-in;
+}
+    header{
+        width: 100%;
+        height: 240px;
+    padding-right: 10px;
+    padding-left: 10px;
+    }
+    
+    .container .img1{
+        width: 40%;
+        height: 210px;
+        margin-bottom: 10px;
+    }
+    .row2{
+        margin-left: 
+    }
+    .wave{
+        height: 182px;
+    }
+    
+    .contenido h1{
+        margin-top: 10px;
+       
+    }
+    
+    .contenido p{
+        text-align: left;
+    }
+    .container #img2{
+        height: 300px;
+        width: 100%;
+    }
+    .container #img3{
+        height: 300px;
+        width: 100%;
+    }
+    
+    
+    .container-fluid form{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        margin: 0 10px;
+    }
+    
+    .footer{
+        height: 550px;
+    }
+    .tecnologia h2{
+        
+        text-align: center;
+    }
+    .container i p{
+        text-align: center;
+    }
+    .wave .style{
+        height: 240px;
+    }
+    .container .imagen1{
+        height: 300px;
+        width: 100%;
+    }
+    .container-fluid .margin{
+        margin-top: 5px;
+    }
+    .Tk{
+        display: flex;
+        order: 2;
+    }
+    .Kt{
+        display: flex;
+        order: 1;
+        flex-direction: column;
+    }
+    .Tk1{
+        flex-direction: column;
+    }
+    .telefono{
+        text-decoration: none;
+        color: aliceblue;
+    }
+    
+}
+@media (max-width:800px){
+    .footer{
+        height: auto;
+    }
+    .textos h1 {
+    font-size: 50px;
+    }
+    .container .img1{
+       width: 50%;
+        height: 210px;
+    }.textos a {
+    display: inline-block;
+    color: #fff;
+    font-weight: 300px;
+    text-decoration: none;
+    margin-top: 10px;
+    border: 1px solid #fff;
+    width: 150px;
+    border-radius: 3px;
+    text-align: center;
+    padding: 10px 0;
+    animation: Contacto 1.2s ease-in;
+}
+}

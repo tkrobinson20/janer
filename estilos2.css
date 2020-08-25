@@ -1,0 +1,15 @@
+ #gif{
+    display: none;
+} 
+#btnEnviar{
+    width: 100px;
+    height: 35px;
+     border-radius: 45px;
+     font-weight: bold;
+     color: aliceblue;
+     background: grey;
+}
+.fas{
+    margin-right: 5px;
+}
+

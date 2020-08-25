@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+     <link rel="stylesheet" href="plugins/sweetAlert2/sweetalert2.min.css">  
+    <link rel="stylesheet" href="plugins/animate.css/animate.css">  
+     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.2/animate.min.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,700,800&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/fb211ee2c2.js" crossorigin="anonymous"></script>
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <link rel="stylesheet" href="estilos2.css">
+    <link rel="stylesheet" href="estilos.css">
+    <title>JANER</title>
+</head>
+<body>
+   <header>
+       <div class="container title">
+       <div class="textos" >
+           <h1 data-aos="zoom-in-left" data-aos-duration="2000">JANER</h1>
+           <h2 data-aos="fade-right" data-aos-duration="2000">Systems &amp; solutions</h2>
+       </div>
+       <img src="img/1234.png" alt="" class="img-fluid img1" data-aos="zoom-out-down" data-aos-duration="2000">
+       </div>
+       
+   </header>
+   <div class="wave">
+       <div id='wave1'style="height: 340px; overflow: hidden;" ><svg viewBox="0 0 500 150" preserveAspectRatio="none" style="height: 100%; width: 100%;"><path d="M0.00,49.98 C149.99,150.00 349.20,-49.98 500.00,49.98 L500.00,150.00 L0.00,150.00 Z" style="stroke: none; fill: #fff;"></path></svg></div>
+   </div>
+   <section class="container-fluid">
+       <div class="container ">
+           <div class="row justify-content-space-around align-items-center">
+               <div class="col-12 col-md-6 contenido">
+                   <h1 id="h1">Quienes Somos?</h1>
+                   <p>Prestamos servicios informaticos, comunicaciones, especialmente mantenimiento de redes informaticas, gestion de copias de seguridad.
+                    Nos ocupamos tanto de sus servidores, ordenadores fijos y  portatiles, impresoras, cableado, switches, routers y en general, 
+                todo lo necesario para que su negocio no se             detenga.aportamos soluciones tecnologicas basadas en la agilidad. eficacia y comunicacion, ofrecemos servicios informaticos de calidad adaptados a cada una de sus necesidades.</p>
+               </div>
+               <div class="col-12 col-md-6">
+                   <img src="img/2922316.jpg" id="img2" class="img-fluid " data-aos="zoom-in-left" data-aos-duration="2000">
+               </div>
+           </div>
+       </div>
+       <div class="container">
+           <div class="row justify-content-space-around align-items-center d-flex">
+                   <div class="col-12 col-md-6 order-2 order-md-1">
+                   <img src="img/2555355.jpg" alt="" id="img3" class="img-fluid" data-aos="zoom-in-right" data-aos-duration="2000">
+                   </div>
+                  <div class="col-12 col-md-6 order-1 order-md-2">
+                   <h2 id="h2" >Mision</h2>
+                    <p >Somos una empresa dedicada a los servicios tecnicos y mantenimiento de equipos y sistemas informaticos, y consultoria de data center. ofreciendo una solucion global a empresas, profesionales, administraciones y usuarios particulares, a todo el territorio nacional.</p>
+               </div>
+           </div>
+       </div>
+   </section>
+   <div class="container row row2 d-flex align-items-center justify-content-center formulario ">
+           <div class="col-12 text-center">
+               <h1 id="h3" >Recibe accesoria gratis</h1>
+           </div>
+            <div class="col-12 col-md-4 mt-5 mr-1 margin"  data-aos="zoom-in-right" data-aos-duration="2000">
+              <form action="envio2.php" method="POST" id="contact" class="formulario">
+              
+        <div class="form-group row">
+      <input type="text" class="form-control col-12 " id="name"  name="name" placeholder="Write your name" pattern="[a-zA-Z ]+" required onkeypress="return soloLetras(event)">
+    </div>
+    <div class="form-group row">
+      <input type="email" class="form-control col-12 " id="email"  name="email" placeholder="Write you e-mail!" pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,}$" required>
+    </div>
+            <div class="form-group row">
+            <textarea name="comment" id="mensaje" cols="4" rows="3" class="form-control col-12" required placeholder="Get a report by E-mail" ></textarea>
+                  </div>
+                  <div class="row justify-content-center" id="loaders">
+                      <img src="img/spinner.gif" alt="" id="spinner" width="150px" class="d-none" >
+                  </div>
+                  <div class="row">
+                      <button type="submit" value="enviar" id="btnEnviar" class="btn" disabled><i class="fas fa-envelope"></i> Send</button>
+                  </div>
+            </form>
+            
+            </div>
+                <div class="row"data-aos="zoom-in-left" data-aos-duration="2000">
+            <div class="col-12 form1">
+                <img src="img/977.jpg" class="img-fluid imagen1" >
+            </div>
+        </div>
+    </div> 
+    <div class="container" >
+        <div class="row" data-aos="zoom-in-right" data-aos-duration="2000">
+           <div class="col-12 text-center bold" >
+               <h1 id="h4" data-aos="zoom-in-left" data-aos-duration="2000">Conjunto Directivo</h1>
+           </div>
+            <div class="col text-center" >
+                <img src="img/ariel.jpeg" alt="..." class="rounded-circle" width="170px" height="165px">
+                <h4>Elvis A. Severino </h4>
+                <p class="pk">Direccion general</p>
+            </div>
+            <div class="col text-center">
+                <img src="img/nelvin.jpeg" alt="..." class="rounded-circle" width="170px" height="165px">
+                <h4>Nelvin López </h4>
+                <p class="pk">Direccion de infraestructura y redes de datos</p>
+            </div>
+            <div class="col text-center">
+                <img src="img/robinson.jpeg" alt="..." class="rounded-circle" width="170px" height="165px">
+                <h4>Robinson Jr Nuñez</h4>
+                <p class="pk">Encargado de desarrollo</p>
+            </div>
+            <div class="col text-center">
+                <img src="img/manuel.jpeg" alt="..." class="rounded-circle" width="170px" height="165px">
+                <h4>Luis  Brea</h4>
+                <p class="pk">Direccion de publicidad</p>
+            </div>
+            <div class="col text-center">
+                <img src="img/chrisphofer.jpeg" alt="..." class="rounded-circle" width="170px" height="165px">
+                <h4>Christofer Ozuna</h4>
+                <p class="pk">Encargado de seguridad</p>
+            </div>
+            <div class="col text-center">
+                <img src="img/wanyer.jpeg" alt="..." class="rounded-circle" width="170px" height="165px">
+                <h4>Wanyer De jesus</h4>
+                <p class="pk">Ejecutivo de ventas</p>
+            </div>
+        </div>
+    </div>          
+        
+             <div class="ola wave">
+                 <div id="footer"style="height: 190px; overflow: hidden;" ><svg viewBox="0 0 500 150" preserveAspectRatio="none" style="height: 100%; width: 100%;"><path d="M-13.83,56.53 C72.51,228.25 271.49,-50.00 500.00,49.98 L500.00,0.00 L0.00,0.00 Z" style="stroke: none; fill: #fff;"></path></svg></div>
+              
+              </div>  
+              <div class="footer">
+              <div class="container-fluid  justify-content-space-around">
+                  <div class="row ">
+                    <div class="col-12 col-md-6 text-white text-center align-items-center">
+                        <div class="company  text-uppercase font-weight-bold ">
+                        <h5 class="font-weight-bold">Contactos</h5>
+                      </div> 
+                      <p><i class="fas fa-home mr-2"></i>Recibe asistencia en linea</p>
+                      <p><i class="fas fa-envelope mr-2"></i>example@gmail.com</p>
+                      <p class="telefono"><i class="fas fa-phone mr-2"></i>+1 829 264 2213</p>
+                      <p><i class="fas fa-headset mr-2"></i>Soporte las 24 horas</p>
+                      <p><i class="fas fa-map-marked-alt mr-2"></i>Torre phoenix #12 Piantini</p>
+                      </div>
+                      <hr class="clearfix w-100 d-md-none pb-4">
+                      <div class="col-12 col-md-6 text-center text-white ">
+                          <div class="desarrollo text-uppercase">
+                              <h5 class="font-weight-bold">Departamentos</h5>
+                          </div>
+                          <div class="desarrollo">
+                             <p><i class="fas fa-user-tie mr-2"></i>Direccion General</p>
+                             <div class="desarrollo">
+                              <p><i class="fas fa-code mr-2"></i>Direccion de desarrollo</p>
+                              <div class="desarrollo">
+                              <p><i class="fas fa-sitemap mr-2"></i>Direccion de infraestructura y redes de datos</p>
+                          <div class="desarrollo">
+                             <p><i class="fas fa-network-wired mr-2"></i>Seguridad informatica</p>
+                          </div>
+                          </div>
+                          <div class="desarrollo">
+                              <p><i class="fas fa-desktop mr-2"></i>Direccion de publicidad</p>
+                                      </div>
+                                  </div>
+                              </div>
+                        </div>
+                        <div class="col-12 col-md-12 text-center text-light color ">
+                          <h6>All reserved right &copy;2019-2020</h6>
+                      </div>
+                </div>   
+         </div>
+        
+    </div>
+      <script>
+  AOS.init();
+</script>
+      <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
+       <script src="jquery/jquery-3.3.1.min.js"></script>
+     <script src="plugins/sweetAlert2/sweetalert2.all.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+<script src="codigo.js"></script>  
+</body>
+</html>
